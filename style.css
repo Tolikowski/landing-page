@@ -1,0 +1,11 @@
+.header{
+    color: #fff;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
