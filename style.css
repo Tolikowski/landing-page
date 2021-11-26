@@ -1,3 +1,8 @@
+body{
+padding:0;
+margin:0;
+}
+
 .header{
     color: #fff;
     background-color: #1f2937;
@@ -8,4 +13,8 @@
 .header a {
     text-decoration: none;
     color: #fff;
+}
+
+.hero-image{
+    background-color: grey;
 }
