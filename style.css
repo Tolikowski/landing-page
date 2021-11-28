@@ -7,22 +7,44 @@ margin:0;
 }
 
 .header{
-    color: #fff;
+    color: #e5e7eb;
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    padding: 0 2em 0 2em;
+    padding: 0 2em 5em 2em;
 }
 
 .navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5em;
 }
 
 .header-content{
     display: flex;
     gap: 1em;
+}
+
+.header-content h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.header-content p{
+    font-size: 18px;
+    margin-top:0;
+}
+
+.header-content button{
+    border: none;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 0.5em 1.5em 0.5em 1.5em;
 }
 
 .header a {
